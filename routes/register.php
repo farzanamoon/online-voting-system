@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -42,7 +41,7 @@
 
     <div id="bodySection">
         <h3>Registration</h3>
-        <form action="#">
+        <form action="../api/register.php" method="post">
             <input type="text" name="name" placeholder="Enter Name">
             <input type="number" name="mobile" placeholder="Enter Mobile Number"><br><br>
             <input type="password" name="password" placeholder="password">
