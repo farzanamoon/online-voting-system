@@ -41,7 +41,7 @@
 
     <div id="bodySection">
         <h3>Registration</h3>
-        <form action="../api/register.php" method="post">
+        <form action="../api/register.php" method="post" enctype="multipart/form-data">
             <input type="text" name="name" placeholder="Enter Name">
             <input type="number" name="mobile" placeholder="Enter Mobile Number"><br><br>
             <input type="password" name="password" placeholder="password">
