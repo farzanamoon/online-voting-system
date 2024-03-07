@@ -14,7 +14,7 @@
     </div>
 
     <div id="bodySection">
-        <form action="#">
+        <form action="api/login.php" method="POST">
             <h2>Login</h2>
 
             <input type="number" name="mobile" placeholder="Enter Mobile no"><br><br>
