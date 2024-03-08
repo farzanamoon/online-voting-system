@@ -34,20 +34,21 @@
 
     }
     </style>
-    <div id="headerSection">
-        <h1>Online Voting System</h1>
-    </div>
-    <hr>
+    <center>
+        <div id="headerSection">
+            <h1>Online Voting System</h1>
+        </div>
+        <hr>
 
-    <div id="bodySection">
-        <h3>Registration</h3>
-        <form action="../api/register.php" method="post" enctype="multipart/form-data">
-            <input type="text" name="name" placeholder="Enter Name">
-            <input type="number" name="mobile" placeholder="Enter Mobile Number"><br><br>
-            <input type="password" name="password" placeholder="password">
-            <input type="password" name="cpassword" placeholder="Confirm password"><br><br>
-            <input id="address" type="text" name="address" placeholder="Address"><br><br>
-            <center>
+        <div id="bodySection">
+            <h3>Registration</h3>
+            <form action="../api/register.php" method="post" enctype="multipart/form-data">
+                <input type="text" name="name" placeholder="Enter Name">
+                <input type="number" name="mobile" placeholder="Enter Mobile Number"><br><br>
+                <input type="password" name="password" placeholder="password">
+                <input type="password" name="cpassword" placeholder="Confirm password"><br><br>
+                <input id="address" type="text" name="address" placeholder="Address"><br><br>
+
                 <div id="imagepart">
                     Upload image: <input type="file" name="photo">
                 </div>
@@ -58,17 +59,18 @@
                         <option value="2">Group</option>
                     </select>
                 </div>
-            </center>
-            <br>
-            <button style=" padding: 5px;
+
+                <br>
+                <button style=" padding: 5px;
                            font-size: 15px;
                            border-radius: 5px;
                            background-color:#48dbfb;
                           color: white;">
-                Register</button><br><br>
-            Already user? <a href="../index.php">Login Here</a>
-        </form>
-    </div>
+                    Register</button><br><br>
+                Already user? <a href="../index.php">Login Here</a>
+            </form>
+        </div>
+    </center>
 </body>
 
 </html>
